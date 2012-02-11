@@ -5,6 +5,8 @@ This project will run the [Drupal CodeSniffer rules](http://drupal.org/project/d
 
 Requirements
 ------------
+* Install dependencies with Composer
+    - http://packagist.org/
 * `PHP_CodeSniffer` installed via PEAR
     - `phpcs` in your `$PATH`
 *  The `curl` PHP extension
