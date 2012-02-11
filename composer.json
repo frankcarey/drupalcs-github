@@ -1,5 +1,8 @@
 {
   "require": {
-    "guzzle/guzzle": "2.1.0"
+    "guzzle/guzzle": "2.1.0",
+    // github-api has a composer file, but it's version doesn't get picked up, so need to use "*". 
+    // Pull request is in at https://github.com/ornicar/php-github-api/pull/26
+    "ornicar/github-api": "*"
   }
 }
